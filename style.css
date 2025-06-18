@@ -6,3 +6,38 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+
+
+#captain{
+    max-width: 100%;
+    width: 25%;
+     float:right;
+    
+
+}
+
+
+#Âge-dor{
+  padding-left: 10px;
+   
+}
+
+
+#les-vieux{
+    padding-bottom: 10%;
+     max-width: 100%;
+     width: 25%;
+     float:right;
+    
+
+}
+#first{
+    max-width: 100%;
+     width: 25%;
+     float:right;
+}
+
+#début{
+     padding-left: 10px;
+}
