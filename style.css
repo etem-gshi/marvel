@@ -23,7 +23,7 @@ article {
 .article-img {
     display: flex;
     width : 30%;
-    padding: 10px;
+    padding: 30px;
 }
 
 /* modification des images*/
