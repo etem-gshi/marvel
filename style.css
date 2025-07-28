@@ -7,37 +7,44 @@
     box-sizing: border-box;
 }
 
-
-
-#captain{
-    max-width: 100%;
-    width: 25%;
-     float:right;
-    
-
+article {
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+    width : 100%;
 }
 
-
-#Âge-dor{
-  padding-left: 10px;
+.texte {
+    width : 65%;
    
 }
 
+.article-img {
+    display: flex;
+    width : 30%;
+    padding: 10px;
+}
+
+/* modification des images*/
 
 #les-vieux{
-    padding-bottom: 10%;
-     max-width: 100%;
-     width: 25%;
-     float:right;
-    
-
+    width: 20vw;
 }
+
 #first{
-    max-width: 100%;
-     width: 25%;
-     float:right;
+
+    width: 20vw;
 }
 
-#début{
-     padding-left: 10px;
+#captain{
+
+     width: 20vw;
 }
+
+#fantastiques{
+
+    width: 20vw;
+}
+
+
