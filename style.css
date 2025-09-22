@@ -25,6 +25,8 @@ article {
     padding-right: 20px;
 }
 
+
+
 .texte {
     width : 65%;
    
@@ -113,3 +115,45 @@ transition: background-color 500ms,color 1000ms,border 1000ms;
     color: var(--couleur-fonce);
     border:solid var(--couleur-midfonce) 2px;
 }
+
+/* personnage */
+
+.card-wrapper{
+    display: block;
+    margin: 10px;
+    width: 15vw;
+    height: 25vh;
+     aspect-ratio: 2/3;
+    background-image : url('./asset/fond-texture-metal-rouge_46250-347.avif') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card-inner{
+    display: flex;
+    
+}
+
+.card-tittle{
+
+
+}
+
+
+
+/*
+.iron-man{
+box-shadow: 10px 5px 5px red;
+width: 20vw;
+}
+
+.spider-man{
+    box-shadow: 10px 5px 5px red;
+    width: 20vw;
+}
+div{
+    display: flex;
+}
+    */ 
+    
