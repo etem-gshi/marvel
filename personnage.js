@@ -1,10 +1,17 @@
-let wrapper = document.querySelector('.card-wrapper');
-let image = document.querySelector('.card-image');
-let slider = document.querySelector('.slider');
+let wrapper = document.querySelectorAll('.card-wrapper');
+let image = document.querySelectorAll('.card-image');
+let slider = document.querySelectorAll('.slider');
 
-/*wrapper.forEach((wrapper, index) => {
-    let image = image [index];
-    let slider = slider [index];*/
+wrappers.forEach(wrapper => {
+    let image = wrapper.querySelector('.card-image');
+    let slider = wrapper.querySelector('.slider')});
+
+    // Si l'un des deux n'existe pas, on arrête là
+    if (!image || !slider) {
+        console.warn('Elément manquant dans ce wrapper', wrapper);
+        return;
+    };
+
 
 function zoom() {
     image.style.backgroundSize = '120%';
@@ -21,5 +28,6 @@ wrapper.addEventListener('mouseout',unZoom);
 /*});*/
 
 
-
+function test() {
 console.log("ok");
+}

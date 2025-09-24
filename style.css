@@ -123,7 +123,7 @@ transition: background-color 500ms,color 1000ms,border 1000ms;
 
 
 .card-wrapper{
-    position: absolute;
+    position: relative;
     top: 210px;
     display: block;
     margin: 10px;
@@ -191,6 +191,172 @@ transition: background-size 500ms ease-out;
     top: -95%;
     padding: 0.5px;
 }
+
+
+/*Personnnage SpiderMan*/
+.card-image.spiderman {
+    background-image: url('./asset/texture-SpiderMan.jpg');
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+/*equipe*/
+
+
+.equipe-avenger{
+    position: relative;
+    top: 210px;
+    display: block;
+    margin: 10px;
+    width: 25vw;
+    height: 50vh;
+     aspect-ratio: 2/3;
+    background-image : url('./asset/depositphotos_476984072-stock-photo-abstract-background-multi-colored-texture.webp') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 0.9vw;
+}
+
+.card-titre{
+    
+width: 100%;
+background-color: black;
+color: white;
+height: 8%;
+padding: 5px;
+padding-left: 10px;
+}
+
+.card-img{
+    width: 100%;
+    height: 90%;
+    background-image: url('./asset/avenger.jpg');
+    background-size: 100%;
+    background-position-y: 0%;
+    background-position-x: center;
+
+}
+
+
+
+.equipe-X-men{
+
+     position: relative;
+    top: 210px;
+    display: block;
+    margin: 10px;
+    width: 25vw;
+    height: 50vh;
+     aspect-ratio: 2/3;
+    background-image : url('./asset/X-men.webp') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 0.9vw;
+   
+}
+
+.card-X-men{
+     width: 90%;
+    height: 90%;
+    background-image: url('./asset/X-men.jpg');
+    background-size: 100%;
+    background-position-y: 0%;
+    background-position-x: center;
+
+}
+
+
+
+.fantastic{
+
+     position: relative;
+    top: 210px;
+    display: block;
+    margin: 10px;
+    width: 25vw;
+    height: 50vh;
+     aspect-ratio: 2/3;
+    background-image : url('./asset/Texture-4fantastic.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 0.9vw;
+}
+
+.card-4-fantastic{
+
+      width: 90%;
+    height: 90%;
+    background-image: url('./asset/unnamed.jpg');
+    background-size: 100%;
+    background-position-y: 0%;
+    background-position-x: center;
+
+
+}
+
+
+.gardien-galaxi{
+    position: relative;
+    top: 210px;
+    display: block;
+    margin: 10px;
+    width: 25vw;
+    height: 50vh;
+     aspect-ratio: 2/3;
+    background-image : url('./asset/Texture-galaxie.avif') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 0.9vw;
+
+}
+
+.card-gardien-galaxie{
+
+  width: 90%;
+    height: 90%;
+    background-image: url('./asset/Marvel-Verse-Gardiens-de-la-Galaxie.jpg');
+    background-size: 100%;
+    background-position-y: 0%;
+    background-position-x: center;
+
+}
+
+/* films*/
+
+#ligne{
+   padding-top: 210px;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 40vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
